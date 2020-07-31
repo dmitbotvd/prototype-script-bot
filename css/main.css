@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("/css/font/RobotoMono-VariableFont_wght.ttf") format("woff");
+  font-family: "Roboto Mono Italic";
+  src: url("/css/font/RobotoMono-Italic-VariableFont_wght.ttf") format("woff");
+ }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #ccc;
+}
+body, html {
+  font-size: 20px;
+  font-family: 'Roboto Mono ', monospace;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+/*bg*/
+.bg__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.bg__left {
+  width: 50%;
+}
+.bg__text-center {
+  padding: 25px 0;
+}
+.bg__text-center h1 {
+  font-size: 24px;
+  
+}
+.bg__right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg__right img {
+  max-width: 250px;
+  width: 100%;
+}

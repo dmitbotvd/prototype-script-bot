@@ -9,20 +9,58 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <header class="header">
+    <div class="header_menu">
+      <div class="header__span">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="header__nav">
+        <ul id="menu">
+          <li data-menuanchor="firstPage" class="active"><a href="#1">1</a></li>
+          <li data-menuanchor="secondPage"><a href="#2">2</a></li>
+          <li data-menuanchor="thirdPage"><a href="#3">3</a></li>
+          <li data-menuanchor="fourthPage"><a href="#4">4</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <article id="fullpage">
+      <section class="section active">
+        <div class="container">
+          <div class="bg__block">
+            <div class="bg__left">
+              <div class="bg__text">
+                <div class="bg__text-top">
+                  <span>
+                    &lt;script bot&gt;
+                  </span>
+                </div>
+                <div class="bg__text-center">
+                  <h1>
+                    Hello my name is Valeriy <br>
+                    Front End developer
+                  </h1>
+                </div>
+                <div class="bg__text-button">
+                  <a href="#">contact me</a>
+                </div>
+              </div>
+            </div>
+            <div class="bg__right">
+              <img src="img/bot.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">Some section</section>
+      <section class="section">Some section</section>
+      <section class="section">Some section</section>
+    </article>
   
-  <div id="fullpage">
-    <div class="section active">Some section</div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
-  </div>
 
-  <ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#1">1</a></li>
-    <li data-menuanchor="secondPage"><a href="#2">2</a></li>
-    <li data-menuanchor="thirdPage"><a href="#3">3</a></li>
-    <li data-menuanchor="fourthPage"><a href="#4">4</a></li>
-  </ul>
+  
   
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/fullpage.min.js"></script>
